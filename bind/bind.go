@@ -145,8 +145,8 @@ type Gauge struct {
 type Task struct {
 	ID         string `xml:"id"`
 	Name       string `xml:"name"`
-	Quantum    uint64 `xml:"quantum"`
-	References uint64 `xml:"references"`
+	Quantum    int64 `xml:"quantum"`
+	References int64 `xml:"references"`
 	State      string `xml:"state"`
 }
 
